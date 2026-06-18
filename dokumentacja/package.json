@@ -1,0 +1,18 @@
+{
+  "dependencies": {
+    "prism-themes": "^1.9.0"
+  },
+  "name": "doc",
+  "version": "0.0.1",
+  "description": "nomos",
+  "main": "index.js",
+  "devDependencies": {
+    "honkit": "^6.1.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

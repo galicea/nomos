@@ -1,0 +1,20 @@
+@startuml
+participant "Silnik Wnioskowania" as Engine
+participant "Hierarchia Wartości" as HV
+participant "Baza Faktów (Symulacje)" as SIM
+participant "Generator Raportów" as Rep
+
+Engine -> SIM: Pobierz przypadki testowe
+activate SIM
+SIM --> Engine: Zestaw stanów faktycznych
+deactivate SIM
+Engine -> HV: Sprawdź hierarchię (Art. 1.4)
+activate HV
+HV --> Engine: Wynik weryfikacji wartości
+deactivate HV
+Engine -> Engine: Testuj niesprzeczność
+Engine -> Rep: Generuj Raport Weryfikacji
+activate Rep
+Rep --> Engine: Raport (ZGODNY/NIEZGODNY)
+deactivate Rep
+@enduml

@@ -1,0 +1,7 @@
+{% extends "./page.html" %}
+
+{% block body %}
+<div id="pdf-footer" class="pdf-footer">
+<span class="sub">{{ config.title }} | (C) {{ config.copyright }} 2026</span>&nbsp;<span class="footer-pages-count">| Strona: {{ page.num }} </span>
+</div>
+{% endblock %}

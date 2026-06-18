@@ -1,0 +1,17 @@
+@startuml
+actor Prawodawca
+participant "Interfejs SOK" as UI
+participant "Translator" as TR
+participant "Baza Aksjomatów" as DB
+
+Prawodawca -> UI: Wprowadź projekt + dowód logiczny
+activate UI
+UI -> TR: Translacja na predykaty
+activate TR
+TR --> UI: Lista predykatów
+deactivate TR
+UI -> UI: Sprawdź kompletność (Art. 5.5)
+UI -> DB: Zarejestruj projekt (stan: weryfikacja)
+UI --> Prawodawca: Potwierdzenie przyjęcia (ID projektu)
+deactivate UI
+@enduml

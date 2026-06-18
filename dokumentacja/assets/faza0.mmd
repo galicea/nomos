@@ -1,0 +1,67 @@
+flowchart TD
+    F["🏛️ Fundacja\n─────────────\nOsobowość prawna\nWłasność IP / CLA\nZarząd grantów\nRejestr audytowy"]
+
+    subgraph W0["Wątek A — silnik SOK (od dnia 0)"]
+        A1["Silnik rezolucji\nw Pythonie"]
+        A2["Pola semantyczne\n+ fuzzy logic"]
+        A3["CI/CD + testy\njednostkowe"]
+        A1 --> A2 --> A3
+    end
+
+    subgraph W1["Wątek B — formalizacja (od dnia 0)"]
+        B1["Projekt Konstytucji\n→ predykaty"]
+        B2["Recenzja publiczna\npull requests"]
+        B1 --> B2
+    end
+
+    subgraph W2["Wątek D — społeczność (od dnia 0)"]
+        D1["NGO / uczelnie\naudyt zewnętrzny"]
+        D2["Issues GitHub\n+ raporty"]
+        D1 --> D2
+    end
+
+    subgraph W3["Wątek C — legislacja (od miesiąca 5)"]
+        C1["Projekty ustaw\nkonstytucyjnych"]
+        C2["Weryfikacja\nprzez SOK"]
+        C1 --> C2
+    end
+
+    RN["⚖️ Rada Naukowa\n(niezależna)\nAudyt architektoniczny\ni aksjologiczny"]
+
+    GH["📦 GitHub\n(publiczne repozytorium)\nKod · Predykaty · Raporty"]
+
+    KO["👥 Kontrybutorzy\nzewnętrzni\nProgramiści · Prawnicy\nLogicy · Akademicy"]
+
+    F -->|"inicjuje i koordynuje"| W0
+    F -->|"inicjuje i koordynuje"| W1
+    F -->|"inicjuje i koordynuje"| W2
+    F -->|"zleca po M5"| W3
+    F <-->|"niezależny audyt\n4× / rok"| RN
+
+    W0 <-->|"kod + predykaty"| GH
+    W1 <-->|"predykaty + recenzje"| GH
+    W2 <-->|"issues + raporty"| GH
+    W3 <-->|"projekty ustaw"| GH
+
+    KO -->|"pull requests"| GH
+
+    A3 -->|"MVP gotowe → odblokowanie"| W3
+
+    subgraph POC["✅ Proof of Concept (M3–M5)"]
+        P1["Ustawa o waloryzacji\nemerytur i rent"]
+        P2["Ustawa o odsetkach\nustawowych"]
+        P3["Ordynacja podatkowa\n(proste przepisy)"]
+    end
+
+    A3 -->|"testowanie"| POC
+    POC -->|"raport publiczny\n→ wiarygodność"| F
+
+    style F fill:#e8d5f7,stroke:#7c3aed,color:#3b0764
+    style RN fill:#dbeafe,stroke:#1d4ed8,color:#1e3a5f
+    style GH fill:#f0fdf4,stroke:#16a34a,color:#14532d
+    style KO fill:#fef9c3,stroke:#ca8a04,color:#713f12
+    style POC fill:#fff7ed,stroke:#ea580c,color:#7c2d12
+    style W0 fill:#f8fafc,stroke:#94a3b8
+    style W1 fill:#f8fafc,stroke:#94a3b8
+    style W2 fill:#f8fafc,stroke:#94a3b8
+    style W3 fill:#fef2f2,stroke:#fca5a5

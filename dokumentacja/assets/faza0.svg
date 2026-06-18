@@ -1,0 +1,1686 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   aria-roledescription="flowchart-v2"
+   role="graphics-document document"
+   viewBox="0 0 1440.240234375 1408.5999755859375"
+   style="max-width: 1440.24px; background-color: white;"
+   class="flowchart"
+   width="100%"
+   id="my-svg"
+   version="1.1"
+   sodipodi:docname="faza0.svg"
+   inkscape:version="1.2.2 (b0a8486541, 2022-12-01)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <defs
+     id="defs1522" />
+  <sodipodi:namedview
+     id="namedview1520"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="0.55871079"
+     inkscape:cx="821.53417"
+     inkscape:cy="586.17089"
+     inkscape:window-width="1920"
+     inkscape:window-height="990"
+     inkscape:window-x="0"
+     inkscape:window-y="28"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g948"
+     showguides="false" />
+  <style
+     id="style906">#my-svg{font-family:&quot;trebuchet ms&quot;,verdana,arial,sans-serif;font-size:16px;fill:#000000;}@keyframes edge-animation-frame{from{stroke-dashoffset:0;}}@keyframes dash{to{stroke-dashoffset:0;}}#my-svg .edge-animation-slow{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 50s linear infinite;stroke-linecap:round;}#my-svg .edge-animation-fast{stroke-dasharray:9,5!important;stroke-dashoffset:900;animation:dash 20s linear infinite;stroke-linecap:round;}#my-svg .error-icon{fill:#552222;}#my-svg .error-text{fill:#552222;stroke:#552222;}#my-svg .edge-thickness-normal{stroke-width:1px;}#my-svg .edge-thickness-thick{stroke-width:3.5px;}#my-svg .edge-pattern-solid{stroke-dasharray:0;}#my-svg .edge-thickness-invisible{stroke-width:0;fill:none;}#my-svg .edge-pattern-dashed{stroke-dasharray:3;}#my-svg .edge-pattern-dotted{stroke-dasharray:2;}#my-svg .marker{fill:#000000;stroke:#000000;}#my-svg .marker.cross{stroke:#000000;}#my-svg svg{font-family:&quot;trebuchet ms&quot;,verdana,arial,sans-serif;font-size:16px;}#my-svg p{margin:0;}#my-svg .label{font-family:&quot;trebuchet ms&quot;,verdana,arial,sans-serif;color:#000000;}#my-svg .cluster-label text{fill:#333;}#my-svg .cluster-label span{color:#333;}#my-svg .cluster-label span p{background-color:transparent;}#my-svg .label text,#my-svg span{fill:#000000;color:#000000;}#my-svg .node rect,#my-svg .node circle,#my-svg .node ellipse,#my-svg .node polygon,#my-svg .node path{fill:transparent;stroke:#999;stroke-width:1px;}#my-svg .rough-node .label text,#my-svg .node .label text,#my-svg .image-shape .label,#my-svg .icon-shape .label{text-anchor:middle;}#my-svg .node .katex path{fill:#000;stroke:#000;stroke-width:1px;}#my-svg .rough-node .label,#my-svg .node .label,#my-svg .image-shape .label,#my-svg .icon-shape .label{text-align:center;}#my-svg .node.clickable{cursor:pointer;}#my-svg .root .anchor path{fill:#000000!important;stroke-width:0;stroke:#000000;}#my-svg .arrowheadPath{fill:#333333;}#my-svg .edgePath .path{stroke:#000000;stroke-width:2.0px;}#my-svg .flowchart-link{stroke:#000000;fill:none;}#my-svg .edgeLabel{background-color:white;text-align:center;}#my-svg .edgeLabel p{background-color:white;}#my-svg .edgeLabel rect{opacity:0.5;background-color:white;fill:white;}#my-svg .labelBkg{background-color:rgba(255, 255, 255, 0.5);}#my-svg .cluster rect{fill:transparent;stroke:#707070;stroke-width:1px;}#my-svg .cluster text{fill:#333;}#my-svg .cluster span{color:#333;}#my-svg div.mermaidTooltip{position:absolute;text-align:center;max-width:200px;padding:2px;font-family:&quot;trebuchet ms&quot;,verdana,arial,sans-serif;font-size:12px;background:hsl(-160, 0%, 93.3333333333%);border:1px solid #707070;border-radius:2px;pointer-events:none;z-index:100;}#my-svg .flowchartTitleText{text-anchor:middle;font-size:18px;fill:#000000;}#my-svg rect.text{fill:none;stroke-width:0;}#my-svg .icon-shape,#my-svg .image-shape{background-color:white;text-align:center;}#my-svg .icon-shape p,#my-svg .image-shape p{background-color:white;padding:2px;}#my-svg .icon-shape rect,#my-svg .image-shape rect{opacity:0.5;background-color:white;fill:white;}#my-svg .label-icon{display:inline-block;height:1em;overflow:visible;vertical-align:-0.125em;}#my-svg .node .label-icon path{fill:currentColor;stroke:revert;stroke-width:revert;}#my-svg :root{--mermaid-font-family:&quot;trebuchet ms&quot;,verdana,arial,sans-serif;}</style>
+  <g
+     id="g1515">
+    <marker
+       orient="auto"
+       markerHeight="8"
+       markerWidth="8"
+       markerUnits="userSpaceOnUse"
+       refY="5"
+       refX="5"
+       viewBox="0 0 10 10"
+       class="marker flowchart-v2"
+       id="my-svg_flowchart-v2-pointEnd">
+      <path
+         style="stroke-width:1;stroke-dasharray:1, 0"
+         class="arrowMarkerPath"
+         d="M 0,0 10,5 0,10 Z"
+         id="path908" />
+    </marker>
+    <marker
+       orient="auto"
+       markerHeight="8"
+       markerWidth="8"
+       markerUnits="userSpaceOnUse"
+       refY="5"
+       refX="4.5"
+       viewBox="0 0 10 10"
+       class="marker flowchart-v2"
+       id="my-svg_flowchart-v2-pointStart">
+      <path
+         style="stroke-width:1;stroke-dasharray:1, 0"
+         class="arrowMarkerPath"
+         d="m 0,5 10,5 V 0 Z"
+         id="path911" />
+    </marker>
+    <marker
+       orient="auto"
+       markerHeight="11"
+       markerWidth="11"
+       markerUnits="userSpaceOnUse"
+       refY="5"
+       refX="11"
+       viewBox="0 0 10 10"
+       class="marker flowchart-v2"
+       id="my-svg_flowchart-v2-circleEnd">
+      <circle
+         style="stroke-width: 1; stroke-dasharray: 1, 0;"
+         class="arrowMarkerPath"
+         r="5"
+         cy="5"
+         cx="5"
+         id="circle914" />
+    </marker>
+    <marker
+       orient="auto"
+       markerHeight="11"
+       markerWidth="11"
+       markerUnits="userSpaceOnUse"
+       refY="5"
+       refX="-1"
+       viewBox="0 0 10 10"
+       class="marker flowchart-v2"
+       id="my-svg_flowchart-v2-circleStart">
+      <circle
+         style="stroke-width: 1; stroke-dasharray: 1, 0;"
+         class="arrowMarkerPath"
+         r="5"
+         cy="5"
+         cx="5"
+         id="circle917" />
+    </marker>
+    <marker
+       orient="auto"
+       markerHeight="11"
+       markerWidth="11"
+       markerUnits="userSpaceOnUse"
+       refY="5.2"
+       refX="12"
+       viewBox="0 0 11 11"
+       class="marker cross flowchart-v2"
+       id="my-svg_flowchart-v2-crossEnd">
+      <path
+         style="stroke-width: 2; stroke-dasharray: 1, 0;"
+         class="arrowMarkerPath"
+         d="M 1,1 l 9,9 M 10,1 l -9,9"
+         id="path920" />
+    </marker>
+    <marker
+       orient="auto"
+       markerHeight="11"
+       markerWidth="11"
+       markerUnits="userSpaceOnUse"
+       refY="5.2"
+       refX="-1"
+       viewBox="0 0 11 11"
+       class="marker cross flowchart-v2"
+       id="my-svg_flowchart-v2-crossStart">
+      <path
+         style="stroke-width: 2; stroke-dasharray: 1, 0;"
+         class="arrowMarkerPath"
+         d="M 1,1 l 9,9 M 10,1 l -9,9"
+         id="path923" />
+    </marker>
+    <g
+       class="root"
+       id="g1513">
+      <g
+         class="clusters"
+         id="g931">
+        <g
+           data-look="classic"
+           id="W0"
+           class="cluster">
+          <rect
+             height="385"
+             width="579.1796875"
+             y="476.1999969482422"
+             x="450.970703125"
+             style="fill:#f8fafc !important;stroke:#94a3b8 !important"
+             id="rect926" />
+          <g
+             transform="translate(640.560546875, 476.1999969482422)"
+             class="cluster-label"
+             id="g928">
+            <foreignObject
+               height="48"
+               width="200">
+              <xhtml:div
+                 style="display: table; white-space: break-spaces; line-height: 1.5; max-width: 200px; text-align: center; width: 200px;">
+                <xhtml:span
+                   class="nodeLabel">
+                  <xhtml:p>Wątek A — silnik SOK (od dnia 0)</xhtml:p>
+                </xhtml:span>
+              </xhtml:div>
+            </foreignObject>
+          </g>
+        </g>
+      </g>
+      <g
+         class="edgePaths"
+         id="g948">
+        <path
+           marker-end="url(#my-svg_flowchart-v2-pointEnd)"
+           style="stroke:#000000;stroke-opacity:1;fill:none"
+           class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+           id="L_A1_A2_0"
+           d="M709.232,576.6L715.96,585.167C722.688,593.733,736.144,610.867,742.872,622.933C749.6,635,749.6,642,749.6,645.5L749.6,649" />
+        <path
+           marker-end="url(#my-svg_flowchart-v2-pointEnd)"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-opacity:1"
+           class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+           id="L_A2_A3_0"
+           d="M749.6,719.6L749.6,723.767C749.6,727.933,749.6,736.267,759.333,744.351C769.065,752.435,788.531,760.271,798.264,764.189L807.997,768.106" />
+        <path
+           marker-end="url(#my-svg_flowchart-v2-pointEnd)"
+           marker-start="url(#my-svg_flowchart-v2-pointStart)"
+           style="stroke:#000000;fill:none;fill-opacity:1;stroke-opacity:1"
+           class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+           id="L_F_RN_0"
+           d="M557.472,368.332L512.276,380.143C467.081,391.955,376.69,415.577,331.494,433.555C286.299,451.533,286.299,463.867,286.299,473.533C286.299,483.2,286.299,490.2,286.299,493.7L286.299,497.2" />
+        <path
+           marker-end="url(#my-svg_flowchart-v2-pointEnd)"
+           style="stroke:#000000;stroke-opacity:1;fill:none"
+           class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+           id="L_KO_GH_0"
+           d="M135.188,1160.5L135.188,1180.317C135.188,1200.133,135.188,1239.767,170.631,1268.116C206.074,1296.465,276.961,1313.53,312.404,1322.062L347.847,1330.595" />
+        <path
+           marker-end="url(#my-svg_flowchart-v2-pointEnd)"
+           style="stroke:#000000;stroke-opacity:1"
+           class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+           id="L_F_W0_0"
+           d="M689.99,402.2L689.99,408.367C689.99,414.533,689.99,426.867,689.99,438.533C689.99,450.2,689.99,461.2,689.99,466.7L689.99,472.2" />
+        <path
+           marker-end="url(#my-svg_flowchart-v2-pointEnd)"
+           style="stroke:#000000;fill:none;stroke-opacity:1"
+           class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+           id="L_F_W1_0"
+           d="M561.342,357.58L488.056,371.183C414.77,384.787,268.199,411.993,194.913,431.763C121.627,451.533,121.627,463.867,121.627,482.683C121.627,501.5,121.627,526.8,121.627,552.1C121.627,577.4,121.627,602.7,121.627,625.067C121.627,647.433,121.627,666.867,121.627,686.3C121.627,705.733,121.627,725.167,121.627,744.6C121.627,764.033,121.627,783.467,121.627,802.9C121.627,822.333,121.627,841.767,182.568,859.65C243.509,877.533,365.391,893.867,426.332,909.533C487.273,925.2,487.273,940.2,487.273,947.7L487.273,955.2" />
+        <path
+           marker-end="url(#my-svg_flowchart-v2-pointEnd)"
+           style="fill:none;stroke:#000000;stroke-opacity:1"
+           class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+           id="L_F_W2_0"
+           d="M818.639,363.565L872.941,376.171C927.243,388.776,1035.848,413.988,1090.151,432.761C1144.453,451.533,1144.453,463.867,1144.453,482.683C1144.453,501.5,1144.453,526.8,1144.453,552.1C1144.453,577.4,1144.453,602.7,1144.453,625.067C1144.453,647.433,1144.453,666.867,1144.453,686.3C1144.453,705.733,1144.453,725.167,1144.453,744.6C1144.453,764.033,1144.453,783.467,1144.453,802.9C1144.453,822.333,1144.453,841.767,1098.644,859.65C1052.834,877.533,961.215,893.867,915.405,911C869.596,928.133,869.596,946.067,869.596,955.033L869.596,964" />
+        <path
+           marker-end="url(#my-svg_flowchart-v2-pointEnd)"
+           style="fill:none;stroke:#000000;stroke-opacity:1"
+           class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+           id="L_F_W3_0"
+           d="M818.639,353.086L913.885,367.438C1009.131,381.79,1199.623,410.495,1294.869,431.014C1390.115,451.533,1390.115,463.867,1390.115,482.683C1390.115,501.5,1390.115,526.8,1390.115,552.1C1390.115,577.4,1390.115,602.7,1390.115,625.067C1390.115,647.433,1390.115,666.867,1390.115,686.3C1390.115,705.733,1390.115,725.167,1390.115,744.6C1390.115,764.033,1390.115,783.467,1390.115,802.9C1390.115,822.333,1390.115,841.767,1344.306,859.65C1298.496,877.533,1206.877,893.867,1166.234,911.088C1125.591,928.309,1135.925,946.417,1141.091,955.472L1146.258,964.526" />
+        <path
+           marker-end="url(#my-svg_flowchart-v2-pointEnd)"
+           marker-start="url(#my-svg_flowchart-v2-pointStart)"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-opacity:1"
+           class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+           id="L_W0_GH_0"
+           d="M568.295,861.902L523.141,869.952C477.988,878.001,387.682,894.101,342.528,933.917C297.375,973.733,297.375,1037.267,297.375,1098.8C297.375,1160.333,297.375,1219.867,309.745,1255.514C322.114,1291.161,346.854,1302.922,359.223,1308.802L371.593,1314.683" />
+        <path
+           marker-end="url(#my-svg_flowchart-v2-pointEnd)"
+           marker-start="url(#my-svg_flowchart-v2-pointStart)"
+           style="stroke:#000000;stroke-opacity:1;fill:none"
+           class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+           id="L_W1_GH_0"
+           d="M487.273,1246.4L487.273,1251.9C487.273,1257.4,487.273,1268.4,485.631,1279.428C483.988,1290.455,480.702,1301.51,479.059,1307.038L477.416,1312.566" />
+        <path
+           marker-end="url(#my-svg_flowchart-v2-pointEnd)"
+           marker-start="url(#my-svg_flowchart-v2-pointStart)"
+           style="fill:none;fill-opacity:1;stroke:#000000;stroke-opacity:1"
+           class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+           id="L_W2_GH_0"
+           d="M869.596,1237.6L869.596,1244.567C869.596,1251.533,869.596,1265.467,821.283,1281.85C772.97,1298.233,676.343,1317.066,628.03,1326.483L579.717,1335.9" />
+        <path
+           marker-end="url(#my-svg_flowchart-v2-pointEnd)"
+           marker-start="url(#my-svg_flowchart-v2-pointStart)"
+           style="fill:none;stroke:#000000;stroke-opacity:1"
+           class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+           id="L_W3_GH_0"
+           d="M1224.021,1237.6L1224.021,1244.567C1224.021,1251.533,1224.021,1265.467,1116.646,1283.605C1009.271,1301.743,794.52,1324.087,687.145,1335.259L579.77,1346.43" />
+        <path
+           marker-end="url(#my-svg_flowchart-v2-pointEnd)"
+           style="stroke:#000000;stroke-opacity:1;fill:none"
+           class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+           id="L_A3_W3_0"
+           d="M894.436,836.2L894.436,840.367C894.436,844.533,894.436,852.867,959.367,865.2C1024.298,877.533,1154.16,893.867,1216.258,911.031C1278.357,928.195,1272.692,946.19,1269.86,955.187L1267.027,964.185" />
+        <path
+           marker-end="url(#my-svg_flowchart-v2-pointEnd)"
+           style="stroke:#000000;stroke-opacity:1;fill:none"
+           class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+           id="L_A3_POC_0"
+           d="M916.226,769.6L918.953,765.433C921.68,761.267,927.133,752.933,929.859,739.05C932.586,725.167,932.586,705.733,932.586,686.3C932.586,666.867,932.586,647.433,932.586,625.067C932.586,602.7,932.586,577.4,932.586,552.1C932.586,526.8,932.586,501.5,932.586,482.683C932.586,463.867,932.586,451.533,932.586,427.783C932.586,404.033,932.586,368.867,932.586,331.7C932.586,294.533,932.586,255.367,930.353,228.256C928.12,201.145,923.653,186.09,921.42,178.562L919.187,171.035" />
+        <path
+           marker-end="url(#my-svg_flowchart-v2-pointEnd)"
+           style="fill:none;stroke:#000000;stroke-opacity:1"
+           class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+           id="L_POC_F_0"
+           d="M767.889,167.2L754.906,175.367C741.923,183.533,715.957,199.867,702.973,215.533C689.99,231.2,689.99,246.2,689.99,253.7L689.99,261.2" />
+      </g>
+      <g
+         class="edgeLabels"
+         id="g1010">
+        <g
+           class="edgeLabel"
+           id="g952">
+          <g
+             transform="translate(0, 0)"
+             class="label"
+             id="g950">
+            <foreignObject
+               height="0"
+               width="0">
+              <xhtml:div
+                 style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"
+                 class="labelBkg">
+                <xhtml:span
+                   class="edgeLabel" />
+              </xhtml:div>
+            </foreignObject>
+          </g>
+        </g>
+        <g
+           class="edgeLabel"
+           id="g956">
+          <g
+             transform="translate(0, 0)"
+             class="label"
+             id="g954">
+            <foreignObject
+               height="0"
+               width="0">
+              <xhtml:div
+                 style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"
+                 class="labelBkg">
+                <xhtml:span
+                   class="edgeLabel" />
+              </xhtml:div>
+            </foreignObject>
+          </g>
+        </g>
+        <g
+           transform="translate(286.298828125, 439.1999969482422)"
+           class="edgeLabel"
+           id="g960">
+          <g
+             transform="translate(-96.46875, -12)"
+             class="label"
+             id="g958">
+            <foreignObject
+               height="24"
+               width="192.9375">
+              <xhtml:div
+                 style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"
+                 class="labelBkg">
+                <xhtml:span
+                   class="edgeLabel">
+                  <xhtml:p>niezależny audyt\n4× / rok</xhtml:p>
+                </xhtml:span>
+              </xhtml:div>
+            </foreignObject>
+          </g>
+        </g>
+        <g
+           transform="translate(135.1875, 1279.3999786376953)"
+           class="edgeLabel"
+           id="g964">
+          <g
+             transform="translate(-46.2734375, -12)"
+             class="label"
+             id="g962">
+            <foreignObject
+               height="24"
+               width="92.546875">
+              <xhtml:div
+                 style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"
+                 class="labelBkg">
+                <xhtml:span
+                   class="edgeLabel">
+                  <xhtml:p>pull requests</xhtml:p>
+                </xhtml:span>
+              </xhtml:div>
+            </foreignObject>
+          </g>
+        </g>
+        <g
+           transform="translate(689.990234375, 439.1999969482422)"
+           class="edgeLabel"
+           id="g968">
+          <g
+             transform="translate(-74.7734375, -12)"
+             class="label"
+             id="g966">
+            <foreignObject
+               height="24"
+               width="149.546875">
+              <xhtml:div
+                 style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"
+                 class="labelBkg">
+                <xhtml:span
+                   class="edgeLabel">
+                  <xhtml:p>inicjuje i koordynuje</xhtml:p>
+                </xhtml:span>
+              </xhtml:div>
+            </foreignObject>
+          </g>
+        </g>
+        <g
+           transform="translate(121.626953125, 686.2999992370605)"
+           class="edgeLabel"
+           id="g972">
+          <g
+             transform="translate(-74.7734375, -12)"
+             class="label"
+             id="g970">
+            <foreignObject
+               height="24"
+               width="149.546875">
+              <xhtml:div
+                 style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"
+                 class="labelBkg">
+                <xhtml:span
+                   class="edgeLabel">
+                  <xhtml:p>inicjuje i koordynuje</xhtml:p>
+                </xhtml:span>
+              </xhtml:div>
+            </foreignObject>
+          </g>
+        </g>
+        <g
+           transform="translate(1144.453125, 686.2999992370605)"
+           class="edgeLabel"
+           id="g976">
+          <g
+             transform="translate(-74.7734375, -12)"
+             class="label"
+             id="g974">
+            <foreignObject
+               height="24"
+               width="149.546875">
+              <xhtml:div
+                 style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"
+                 class="labelBkg">
+                <xhtml:span
+                   class="edgeLabel">
+                  <xhtml:p>inicjuje i koordynuje</xhtml:p>
+                </xhtml:span>
+              </xhtml:div>
+            </foreignObject>
+          </g>
+        </g>
+        <g
+           transform="translate(1390.115234375, 686.2999992370605)"
+           class="edgeLabel"
+           id="g980">
+          <g
+             transform="translate(-42.125, -12)"
+             class="label"
+             id="g978">
+            <foreignObject
+               height="24"
+               width="84.25">
+              <xhtml:div
+                 style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"
+                 class="labelBkg">
+                <xhtml:span
+                   class="edgeLabel">
+                  <xhtml:p>zleca po M5</xhtml:p>
+                </xhtml:span>
+              </xhtml:div>
+            </foreignObject>
+          </g>
+        </g>
+        <g
+           transform="translate(297.375, 998.29326)"
+           class="edgeLabel"
+           id="g984">
+          <g
+             transform="translate(-57.4921875, -12)"
+             class="label"
+             id="g982">
+            <foreignObject
+               height="24"
+               width="114.984375">
+              <xhtml:div
+                 style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"
+                 class="labelBkg">
+                <xhtml:span
+                   class="edgeLabel">
+                  <xhtml:p>kod + predykaty</xhtml:p>
+                </xhtml:span>
+              </xhtml:div>
+            </foreignObject>
+          </g>
+        </g>
+        <g
+           transform="translate(487.2734375, 1279.3999786376953)"
+           class="edgeLabel"
+           id="g988">
+          <g
+             transform="translate(-75.96875, -12)"
+             class="label"
+             id="g986">
+            <foreignObject
+               height="24"
+               width="151.9375">
+              <xhtml:div
+                 style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"
+                 class="labelBkg">
+                <xhtml:span
+                   class="edgeLabel">
+                  <xhtml:p>predykaty + recenzje</xhtml:p>
+                </xhtml:span>
+              </xhtml:div>
+            </foreignObject>
+          </g>
+        </g>
+        <g
+           transform="translate(869.595703125, 1279.3999786376953)"
+           class="edgeLabel"
+           id="g992">
+          <g
+             transform="translate(-56.0390625, -12)"
+             class="label"
+             id="g990">
+            <foreignObject
+               height="24"
+               width="112.078125">
+              <xhtml:div
+                 style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"
+                 class="labelBkg">
+                <xhtml:span
+                   class="edgeLabel">
+                  <xhtml:p>issues + raporty</xhtml:p>
+                </xhtml:span>
+              </xhtml:div>
+            </foreignObject>
+          </g>
+        </g>
+        <g
+           transform="translate(1224.021484375, 1279.3999786376953)"
+           class="edgeLabel"
+           id="g996">
+          <g
+             transform="translate(-53.65625, -12)"
+             class="label"
+             id="g994">
+            <foreignObject
+               height="24"
+               width="107.3125">
+              <xhtml:div
+                 style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"
+                 class="labelBkg">
+                <xhtml:span
+                   class="edgeLabel">
+                  <xhtml:p>projekty ustaw</xhtml:p>
+                </xhtml:span>
+              </xhtml:div>
+            </foreignObject>
+          </g>
+        </g>
+        <g
+           transform="translate(1284.021484375, 910.1999969482422)"
+           class="edgeLabel"
+           id="g1000">
+          <g
+             transform="translate(-100, -24)"
+             class="label"
+             id="g998">
+            <foreignObject
+               height="48"
+               width="200">
+              <xhtml:div
+                 style="display: table; white-space: break-spaces; line-height: 1.5; max-width: 200px; text-align: center; width: 200px;"
+                 class="labelBkg">
+                <xhtml:span
+                   class="edgeLabel">
+                  <xhtml:p>MVP gotowe → odblokowanie</xhtml:p>
+                </xhtml:span>
+              </xhtml:div>
+            </foreignObject>
+          </g>
+        </g>
+        <g
+           transform="translate(932.5859375, 552.0999984741211)"
+           class="edgeLabel"
+           id="g1004">
+          <g
+             transform="translate(-39.4140625, -12)"
+             class="label"
+             id="g1002">
+            <foreignObject
+               height="24"
+               width="78.828125">
+              <xhtml:div
+                 style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"
+                 class="labelBkg">
+                <xhtml:span
+                   class="edgeLabel">
+                  <xhtml:p>testowanie</xhtml:p>
+                </xhtml:span>
+              </xhtml:div>
+            </foreignObject>
+          </g>
+        </g>
+        <g
+           transform="translate(689.990234375, 216.1999969482422)"
+           class="edgeLabel"
+           id="g1008">
+          <g
+             transform="translate(-100, -24)"
+             class="label"
+             id="g1006">
+            <foreignObject
+               height="48"
+               width="200">
+              <xhtml:div
+                 style="display: table; white-space: break-spaces; line-height: 1.5; max-width: 200px; text-align: center; width: 200px;"
+                 class="labelBkg">
+                <xhtml:span
+                   class="edgeLabel">
+                  <xhtml:p>raport publiczny\n→ wiarygodność</xhtml:p>
+                </xhtml:span>
+              </xhtml:div>
+            </foreignObject>
+          </g>
+        </g>
+      </g>
+      <g
+         class="nodes"
+         id="g1511">
+        <g
+           transform="translate(466.650390625, 0)"
+           class="root"
+           id="g1102">
+          <g
+             class="clusters"
+             id="g1017">
+            <g
+               data-look="classic"
+               id="POC"
+               class="cluster">
+              <rect
+                 height="159.1999969482422"
+                 width="839.5703125"
+                 y="8"
+                 x="8"
+                 style="fill:#fff7ed !important;stroke:#ea580c !important"
+                 id="rect1012" />
+              <g
+                 transform="translate(327.78515625, 8)"
+                 class="cluster-label"
+                 id="g1014">
+                <foreignObject
+                   height="48"
+                   width="200">
+                  <xhtml:div
+                     style="display: table; white-space: break-spaces; line-height: 1.5; max-width: 200px; text-align: center; width: 200px;">
+                    <xhtml:span
+                       style="color:#7c2d12 !important"
+                       class="nodeLabel">
+                      <xhtml:p>✅ Proof of Concept (M3–M5)</xhtml:p>
+                    </xhtml:span>
+                  </xhtml:div>
+                </foreignObject>
+              </g>
+            </g>
+          </g>
+          <g
+             class="edgePaths"
+             id="g1019" />
+          <g
+             class="edgeLabels"
+             id="g1021" />
+          <g
+             class="nodes"
+             id="g1100">
+            <g
+               transform="translate(159.0234375, 87.5999984741211)"
+               id="flowchart-P1-44"
+               class="node default"
+               style="stroke:#000000;stroke-opacity:1;fill:none">
+              <rect
+                 height="84.19999694824219"
+                 width="232.046875"
+                 y="-42.099998474121094"
+                 x="-116.0234375"
+                 style="stroke:#000000;stroke-opacity:1;fill:none"
+                 class="basic label-container"
+                 id="rect1023" />
+              <g
+                 transform="translate(-0.94412429,-5.2577799)"
+                 style="fill:none;stroke:#000000;stroke-opacity:1"
+                 class="label"
+                 id="g1049">
+                <rect
+                   id="rect1025"
+                   style="fill:none;stroke:#000000;stroke-opacity:1"
+                   width="0"
+                   height="0"
+                   x="0"
+                   y="0" />
+                <g
+                   id="g1047"
+                   style="fill:none;stroke:#000000;stroke-opacity:1">
+                  <rect
+                     style="fill:none;stroke:#000000;stroke-opacity:1"
+                     class="background"
+                     id="rect1027"
+                     width="0"
+                     height="0"
+                     x="0"
+                     y="0" />
+                  <text
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1"
+                     y="-10.1"
+                     id="text1045"><tspan
+                       sodipodi:role="line"
+                       id="tspan6979"
+                       x="0"
+                       y="-10.1">Ustawa o</tspan><tspan
+                       sodipodi:role="line"
+                       id="tspan6981"
+                       x="0"
+                       y="4.8999996">o rewaloryzacji</tspan><tspan
+                       sodipodi:role="line"
+                       id="tspan6983"
+                       x="0"
+                       y="19.9">emerytur i rent</tspan></text>
+                </g>
+              </g>
+            </g>
+            <g
+               transform="translate(441.8203125, 87.5999984741211)"
+               id="flowchart-P2-45"
+               class="node default"
+               style="fill:none;stroke:#000000;stroke-opacity:1">
+              <rect
+                 height="66.5999984741211"
+                 width="233.546875"
+                 y="-33.29999923706055"
+                 x="-116.7734375"
+                 style="fill:none;stroke:#000000;stroke-opacity:1"
+                 class="basic label-container"
+                 id="rect1052" />
+              <g
+                 transform="translate(-0.1093036,6.1348195)"
+                 style="fill:none;stroke:#000000;stroke-opacity:1"
+                 class="label"
+                 id="g1072">
+                <rect
+                   id="rect1054"
+                   style="fill:none;stroke:#000000;stroke-opacity:1"
+                   width="0"
+                   height="0"
+                   x="0"
+                   y="0" />
+                <g
+                   id="g1070"
+                   style="fill:none;stroke:#000000;stroke-opacity:1">
+                  <rect
+                     style="fill:none;stroke:#000000;stroke-opacity:1"
+                     class="background"
+                     id="rect1056"
+                     width="0"
+                     height="0"
+                     x="0"
+                     y="0" />
+                  <text
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#000000;fill-opacity:1;stroke:none;stroke-opacity:1"
+                     y="-10.1"
+                     id="text1068"><tspan
+                       sodipodi:role="line"
+                       id="tspan6975"
+                       x="0"
+                       y="-10.1">Ustawa o odsetkach</tspan><tspan
+                       sodipodi:role="line"
+                       id="tspan6977"
+                       x="0"
+                       y="4.8999996">ustawowych</tspan></text>
+                </g>
+              </g>
+            </g>
+            <g
+               transform="translate(710.58203125, 87.5999984741211)"
+               id="flowchart-P3-46"
+               class="node default">
+              <rect
+                 height="84.19999694824219"
+                 width="203.9765625"
+                 y="-42.099998474121094"
+                 x="-101.98828125"
+                 style="stroke:#000000;stroke-opacity:1;fill:none"
+                 class="basic label-container"
+                 id="rect1075" />
+              <g
+                 transform="translate(2.3384017,-5.4189544)"
+                 class="label"
+                 id="g1097">
+                <rect
+                   id="rect1077"
+                   width="0"
+                   height="0"
+                   x="0"
+                   y="0" />
+                <g
+                   id="g1095">
+                  <rect
+                     style="stroke:none"
+                     class="background"
+                     id="rect1079"
+                     width="0"
+                     height="0"
+                     x="0"
+                     y="0" />
+                  <text
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle"
+                     y="-10.1"
+                     id="text1093"><tspan
+                       sodipodi:role="line"
+                       id="tspan6985"
+                       x="0"
+                       y="-10.1">Ordynacja</tspan><tspan
+                       sodipodi:role="line"
+                       id="tspan6987"
+                       x="0"
+                       y="4.8999996">podatkowa</tspan><tspan
+                       sodipodi:role="line"
+                       id="tspan6989"
+                       x="0"
+                       y="19.9">(prosteprzepisy)</tspan></text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g
+           transform="translate(1064.779296875, 959.9999847412109)"
+           class="root"
+           id="g1162">
+          <g
+             class="clusters"
+             id="g1109">
+            <g
+               data-look="classic"
+               id="W3"
+               class="cluster">
+              <rect
+                 height="265.5999984741211"
+                 width="302.484375"
+                 y="8"
+                 x="8"
+                 style="fill:#fef2f2 !important;stroke:#fca5a5 !important"
+                 id="rect1104" />
+              <g
+                 transform="translate(59.2421875, 8)"
+                 class="cluster-label"
+                 id="g1106">
+                <foreignObject
+                   height="48"
+                   width="200">
+                  <xhtml:div
+                     style="display: table; white-space: break-spaces; line-height: 1.5; max-width: 200px; text-align: center; width: 200px;">
+                    <xhtml:span
+                       class="nodeLabel">
+                      <xhtml:p>Wątek C — legislacja (od miesiąca 5)</xhtml:p>
+                    </xhtml:span>
+                  </xhtml:div>
+                </foreignObject>
+              </g>
+            </g>
+          </g>
+          <g
+             class="edgePaths"
+             id="g1112"
+             style="stroke:#000000;stroke-opacity:1">
+            <path
+               marker-end="url(#my-svg_flowchart-v2-pointEnd)"
+               style="stroke:#000000;stroke-opacity:1"
+               class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+               id="L_C1_C2_0"
+               d="M159.242,112.1L159.242,118.35C159.242,124.6,159.242,137.1,159.242,148.933C159.242,160.767,159.242,171.933,159.242,177.517L159.242,183.1" />
+          </g>
+          <g
+             class="edgeLabels"
+             id="g1118">
+            <g
+               class="edgeLabel"
+               id="g1116">
+              <g
+                 transform="translate(0, 0)"
+                 class="label"
+                 id="g1114">
+                <foreignObject
+                   height="0"
+                   width="0">
+                  <xhtml:div
+                     style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"
+                     class="labelBkg">
+                    <xhtml:span
+                       class="edgeLabel" />
+                  </xhtml:div>
+                </foreignObject>
+              </g>
+            </g>
+          </g>
+          <g
+             class="nodes"
+             id="g1160">
+            <g
+               transform="translate(159.2421875, 78.79999923706055)"
+               id="flowchart-C1-15"
+               class="node default">
+              <rect
+                 height="66.5999984741211"
+                 width="232.484375"
+                 y="-33.29999923706055"
+                 x="-116.2421875"
+                 style="fill:none;fill-opacity:1;stroke:#000000;stroke-opacity:1"
+                 class="basic label-container"
+                 id="rect1120" />
+              <g
+                 transform="translate(0, -18.299999237060547)"
+                 style=""
+                 class="label"
+                 id="g1138">
+                <rect
+                   id="rect1122" />
+                <g
+                   id="g1136">
+                  <rect
+                     style="stroke: none"
+                     class="background"
+                     id="rect1124" />
+                  <text
+                     style=""
+                     y="-10.1"
+                     id="text1134"><tspan
+                       dy="1.1em"
+                       y="-0.1em"
+                       x="0"
+                       class="text-outer-tspan"
+                       id="tspan1128"><tspan
+                         font-weight="normal"
+                         class="text-inner-tspan"
+                         font-style="normal"
+                         id="tspan1126">Projekty</tspan></tspan><tspan
+                       dy="1.1em"
+                       y="1em"
+                       x="0"
+                       class="text-outer-tspan"
+                       id="tspan1132"><tspan
+                         font-weight="normal"
+                         class="text-inner-tspan"
+                         font-style="normal"
+                         id="tspan1130">ustaw\nkonstytucyjnych</tspan></tspan></text>
+                </g>
+              </g>
+            </g>
+            <g
+               transform="translate(159.2421875, 211.5999984741211)"
+               id="flowchart-C2-16"
+               class="node default">
+              <rect
+                 height="49"
+                 width="231.65625"
+                 y="-24.5"
+                 x="-115.828125"
+                 style="stroke:#fca5a5;stroke-opacity:1;fill:#fef2f2;fill-opacity:1"
+                 class="basic label-container"
+                 id="rect1141" />
+              <g
+                 transform="translate(0.25900704,7.1077737)"
+                 class="label"
+                 id="g1157">
+                <rect
+                   id="rect1143"
+                   width="0"
+                   height="0"
+                   x="0"
+                   y="0" />
+                <g
+                   id="g1155">
+                  <rect
+                     style="stroke:none"
+                     class="background"
+                     id="rect1145"
+                     width="0"
+                     height="0"
+                     x="0"
+                     y="0" />
+                  <text
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle"
+                     y="-10.1"
+                     id="text1153"><tspan
+                       sodipodi:role="line"
+                       id="tspan7019"
+                       x="0"
+                       y="-10.1">Weryfikacja</tspan><tspan
+                       sodipodi:role="line"
+                       id="tspan7021"
+                       x="0"
+                       y="4.8999996">przez SOK</tspan></text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g
+           transform="translate(708.412109375, 959.9999847412109)"
+           class="root"
+           id="g1228">
+          <g
+             class="clusters"
+             id="g1169">
+            <g
+               data-look="classic"
+               id="W2"
+               class="cluster">
+              <rect
+                 height="265.5999984741211"
+                 width="306.3671875"
+                 y="8"
+                 x="8"
+                 style="fill:#f8fafc !important;stroke:#94a3b8 !important"
+                 id="rect1164" />
+              <g
+                 transform="translate(61.18359375, 8)"
+                 class="cluster-label"
+                 id="g1166">
+                <foreignObject
+                   height="48"
+                   width="200">
+                  <xhtml:div
+                     style="display: table; white-space: break-spaces; line-height: 1.5; max-width: 200px; text-align: center; width: 200px;">
+                    <xhtml:span
+                       class="nodeLabel">
+                      <xhtml:p>Wątek D — społeczność (od dnia 0)</xhtml:p>
+                    </xhtml:span>
+                  </xhtml:div>
+                </foreignObject>
+              </g>
+            </g>
+          </g>
+          <g
+             class="edgePaths"
+             id="g1172">
+            <path
+               marker-end="url(#my-svg_flowchart-v2-pointEnd)"
+               style="stroke:#000000;stroke-opacity:1"
+               class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+               id="L_D1_D2_0"
+               d="M161.184,112.1L161.184,118.35C161.184,124.6,161.184,137.1,161.184,148.933C161.184,160.767,161.184,171.933,161.184,177.517L161.184,183.1" />
+          </g>
+          <g
+             class="edgeLabels"
+             id="g1178">
+            <g
+               class="edgeLabel"
+               id="g1176">
+              <g
+                 transform="translate(0, 0)"
+                 class="label"
+                 id="g1174">
+                <foreignObject
+                   height="0"
+                   width="0">
+                  <xhtml:div
+                     style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"
+                     class="labelBkg">
+                    <xhtml:span
+                       class="edgeLabel" />
+                  </xhtml:div>
+                </foreignObject>
+              </g>
+            </g>
+          </g>
+          <g
+             class="nodes"
+             id="g1226">
+            <g
+               transform="translate(161.18359375, 78.79999923706055)"
+               id="flowchart-D1-11"
+               class="node default">
+              <rect
+                 height="66.5999984741211"
+                 width="224.3125"
+                 y="-33.29999923706055"
+                 x="-112.15625"
+                 style="stroke:#000000;stroke-opacity:1;fill:none"
+                 class="basic label-container"
+                 id="rect1180" />
+              <g
+                 transform="translate(0.58460043,2.0550338)"
+                 class="label"
+                 id="g1202">
+                <rect
+                   id="rect1182"
+                   width="0"
+                   height="0"
+                   x="0"
+                   y="0" />
+                <g
+                   id="g1200">
+                  <rect
+                     style="stroke:none"
+                     class="background"
+                     id="rect1184"
+                     width="0"
+                     height="0"
+                     x="0"
+                     y="0" />
+                  <text
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle"
+                     y="-10.1"
+                     id="text1198"><tspan
+                       sodipodi:role="line"
+                       id="tspan7007"
+                       x="0"
+                       y="-10.1">NGO/uczelnie</tspan><tspan
+                       sodipodi:role="line"
+                       id="tspan7009"
+                       x="0"
+                       y="4.8999996">audyt zewnętrzny</tspan></text>
+                </g>
+              </g>
+            </g>
+            <g
+               transform="translate(161.18359375, 211.5999984741211)"
+               id="flowchart-D2-12"
+               class="node default">
+              <rect
+                 height="49"
+                 width="236.3671875"
+                 y="-24.5"
+                 x="-118.18359375"
+                 style="stroke:#fca5a5;stroke-opacity:1;fill:none"
+                 class="basic label-container"
+                 id="rect1205" />
+              <g
+                 transform="translate(0.89891586,6.2490645)"
+                 class="label"
+                 id="g1223">
+                <rect
+                   id="rect1207"
+                   width="0"
+                   height="0"
+                   x="0"
+                   y="0" />
+                <g
+                   id="g1221">
+                  <rect
+                     style="stroke:none"
+                     class="background"
+                     id="rect1209"
+                     width="0"
+                     height="0"
+                     x="0"
+                     y="0" />
+                  <text
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle"
+                     y="-10.1"
+                     id="text1219"><tspan
+                       sodipodi:role="line"
+                       id="tspan7011"
+                       x="0"
+                       y="-10.1">Issues GitHub</tspan><tspan
+                       sodipodi:role="line"
+                       id="tspan7013"
+                       x="0"
+                       y="4.8999996">raporty</tspan></text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g
+           transform="translate(324.375, 951.1999969482422)"
+           class="root"
+           id="g1294">
+          <g
+             class="clusters"
+             id="g1235">
+            <g
+               data-look="classic"
+               id="W1"
+               class="cluster">
+              <rect
+                 height="283.1999969482422"
+                 width="309.796875"
+                 y="8"
+                 x="8"
+                 style="fill:#f8fafc !important;stroke:#94a3b8 !important"
+                 id="rect1230" />
+              <g
+                 transform="translate(62.8984375, 8)"
+                 class="cluster-label"
+                 id="g1232">
+                <foreignObject
+                   height="48"
+                   width="200">
+                  <xhtml:div
+                     style="display: table; white-space: break-spaces; line-height: 1.5; max-width: 200px; text-align: center; width: 200px;">
+                    <xhtml:span
+                       class="nodeLabel">
+                      <xhtml:p>Wątek B — formalizacja (od dnia 0)</xhtml:p>
+                    </xhtml:span>
+                  </xhtml:div>
+                </foreignObject>
+              </g>
+            </g>
+          </g>
+          <g
+             class="edgePaths"
+             id="g1238">
+            <path
+               marker-end="url(#my-svg_flowchart-v2-pointEnd)"
+               style="stroke:#000000;stroke-opacity:1"
+               class="edge-thickness-normal edge-pattern-solid edge-thickness-normal edge-pattern-solid flowchart-link"
+               id="L_B1_B2_0"
+               d="M162.898,112.1L162.898,118.35C162.898,124.6,162.898,137.1,162.898,148.933C162.898,160.767,162.898,171.933,162.898,177.517L162.898,183.1" />
+          </g>
+          <g
+             class="edgeLabels"
+             id="g1244">
+            <g
+               class="edgeLabel"
+               id="g1242">
+              <g
+                 transform="translate(0, 0)"
+                 class="label"
+                 id="g1240">
+                <foreignObject
+                   height="0"
+                   width="0">
+                  <xhtml:div
+                     style="display: table-cell; white-space: nowrap; line-height: 1.5; max-width: 200px; text-align: center;"
+                     class="labelBkg">
+                    <xhtml:span
+                       class="edgeLabel" />
+                  </xhtml:div>
+                </foreignObject>
+              </g>
+            </g>
+          </g>
+          <g
+             class="nodes"
+             id="g1292">
+            <g
+               transform="translate(162.8984375, 78.79999923706055)"
+               id="flowchart-B1-7"
+               class="node default">
+              <rect
+                 height="66.5999984741211"
+                 width="227.421875"
+                 y="-33.29999923706055"
+                 x="-113.7109375"
+                 style="fill:none;stroke:#000000;stroke-opacity:1"
+                 class="basic label-container"
+                 id="rect1246" />
+              <g
+                 transform="translate(1.7756524,3.3437734)"
+                 class="label"
+                 id="g1266">
+                <rect
+                   id="rect1248"
+                   width="0"
+                   height="0"
+                   x="0"
+                   y="0" />
+                <g
+                   id="g1264">
+                  <rect
+                     style="stroke:none"
+                     class="background"
+                     id="rect1250"
+                     width="0"
+                     height="0"
+                     x="0"
+                     y="0" />
+                  <text
+                     y="-10.1"
+                     id="text1262"
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle"><tspan
+                       sodipodi:role="line"
+                       id="tspan7003"
+                       x="0"
+                       y="-10.1">Projekt Konstytucji</tspan><tspan
+                       sodipodi:role="line"
+                       id="tspan7005"
+                       x="0"
+                       y="4.8999996">predykaty</tspan></text>
+                </g>
+              </g>
+            </g>
+            <g
+               transform="translate(162.8984375, 220.39999771118164)"
+               id="flowchart-B2-8"
+               class="node default">
+              <rect
+                 height="66.5999984741211"
+                 width="239.796875"
+                 y="-33.29999923706055"
+                 x="-119.8984375"
+                 style="fill:none;stroke:#fca5a5;stroke-opacity:1"
+                 class="basic label-container"
+                 id="rect1269" />
+              <g
+                 transform="translate(-2.5941934,5.5264465)"
+                 class="label"
+                 id="g1289">
+                <rect
+                   id="rect1271"
+                   width="0"
+                   height="0"
+                   x="0"
+                   y="0" />
+                <g
+                   id="g1287">
+                  <rect
+                     style="stroke:none"
+                     class="background"
+                     id="rect1273"
+                     width="0"
+                     height="0"
+                     x="0"
+                     y="0" />
+                  <text
+                     style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle"
+                     y="-10.1"
+                     id="text1285"><tspan
+                       sodipodi:role="line"
+                       id="tspan7015"
+                       x="0"
+                       y="-10.1">Recenzja publiczna</tspan><tspan
+                       sodipodi:role="line"
+                       id="tspan7017"
+                       x="0"
+                       y="4.8999996">pull requests</tspan></text>
+                </g>
+              </g>
+            </g>
+          </g>
+        </g>
+        <g
+           transform="translate(689.990234375, 333.6999969482422)"
+           id="flowchart-F-0"
+           class="node default">
+          <rect
+             height="137"
+             width="257.296875"
+             y="-68.5"
+             x="-128.6484375"
+             style="fill:#e8d5f7 !important;stroke:#7c3aed !important"
+             class="basic label-container"
+             id="rect1296" />
+          <g
+             transform="translate(0, -53.5)"
+             style="color:#3b0764 !important"
+             class="label"
+             id="g1336">
+            <rect
+               id="rect1298" />
+            <g
+               id="g1334">
+              <rect
+                 style="stroke: none"
+                 class="background"
+                 id="rect1300" />
+              <text
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:17.9647px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#3b0764;stroke-width:0.999996"
+                 y="4.3626699"
+                 id="text1332"
+                 transform="scale(1.0051775,0.99484921)"
+                 x="2.748646"
+                 inkscape:transform-center-x="-2.3165079"
+                 inkscape:transform-center-y="-16.817359"><tspan
+                   sodipodi:role="line"
+                   id="tspan6963"
+                   x="2.7486465"
+                   y="4.3626699"
+                   style="stroke-width:0.999996">Fundacja</tspan><tspan
+                   sodipodi:role="line"
+                   id="tspan6965"
+                   x="2.748647"
+                   y="26.818546"
+                   style="stroke-width:0.999996">Osobowość prawna</tspan><tspan
+                   sodipodi:role="line"
+                   id="tspan6967"
+                   x="2.748647"
+                   y="49.274422"
+                   style="stroke-width:0.999996">Własność IP/CLA</tspan><tspan
+                   sodipodi:role="line"
+                   id="tspan6969"
+                   x="2.7486444"
+                   y="71.730301"
+                   style="stroke-width:0.999996">Zarząd</tspan><tspan
+                   sodipodi:role="line"
+                   id="tspan6971"
+                   x="2.7486453"
+                   y="94.186172"
+                   style="stroke-width:0.999996">Pozyskiwanie grantów</tspan><tspan
+                   sodipodi:role="line"
+                   id="tspan6973"
+                   x="2.7486422"
+                   y="116.64205"
+                   style="stroke-width:0.999996">Rejestr audytowy</tspan></text>
+            </g>
+          </g>
+        </g>
+        <g
+           transform="translate(689.990234375, 552.0999984741211)"
+           id="flowchart-A1-1"
+           class="node default">
+          <rect
+             height="49"
+             width="260.0625"
+             y="-24.5"
+             x="-130.03125"
+             style="fill:none;stroke:#000000;stroke-opacity:1"
+             class="basic label-container"
+             id="rect1339" />
+          <g
+             transform="translate(-0.58460043,7.2247246)"
+             class="label"
+             id="g1357">
+            <rect
+               id="rect1341"
+               width="0"
+               height="0"
+               x="0"
+               y="0" />
+            <g
+               id="g1355">
+              <rect
+                 style="stroke:none"
+                 class="background"
+                 id="rect1343"
+                 width="0"
+                 height="0"
+                 x="0"
+                 y="0" />
+              <text
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle"
+                 y="-10.1"
+                 id="text1353"><tspan
+                   sodipodi:role="line"
+                   id="tspan6991"
+                   x="0"
+                   y="-10.1">Silnik rezolucji</tspan><tspan
+                   sodipodi:role="line"
+                   id="tspan6993"
+                   x="0"
+                   y="4.8999996">w Pythonie</tspan></text>
+            </g>
+          </g>
+        </g>
+        <g
+           transform="translate(749.599609375, 686.2999992370605)"
+           id="flowchart-A2-2"
+           class="node default">
+          <rect
+             height="66.5999984741211"
+             width="253.0546875"
+             y="-33.29999923706055"
+             x="-126.52734375"
+             style="stroke:#000000;stroke-opacity:1;fill:none"
+             class="basic label-container"
+             id="rect1360" />
+          <g
+             transform="translate(0, -18.299999237060547)"
+             style=""
+             class="label"
+             id="g1382">
+            <rect
+               id="rect1362" />
+            <g
+               id="g1380">
+              <rect
+                 style="stroke: none"
+                 class="background"
+                 id="rect1364" />
+              <text
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle"
+                 y="12.728384"
+                 id="text1378"
+                 x="1.6593289"><tspan
+                   sodipodi:role="line"
+                   id="tspan6999"
+                   x="1.6593289"
+                   y="12.728384">Pola semantyczne</tspan><tspan
+                   sodipodi:role="line"
+                   id="tspan7001"
+                   x="1.6593289"
+                   y="27.728384">fuzzy logic</tspan></text>
+            </g>
+          </g>
+        </g>
+        <g
+           transform="translate(894.435546875, 802.8999977111816)"
+           id="flowchart-A3-3"
+           class="node default">
+          <rect
+             height="66.5999984741211"
+             width="201.4296875"
+             y="-33.29999923706055"
+             x="-100.71484375"
+             style="fill:none;fill-opacity:1;stroke:#000000;stroke-opacity:1"
+             class="basic label-container"
+             id="rect1385" />
+          <g
+             transform="translate(0, -18.299999237060547)"
+             style=""
+             class="label"
+             id="g1405">
+            <rect
+               id="rect1387" />
+            <g
+               id="g1403">
+              <rect
+                 style="stroke: none"
+                 class="background"
+                 id="rect1389" />
+              <text
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle"
+                 y="13.099669"
+                 id="text1401"
+                 x="2.6811051"><tspan
+                   sodipodi:role="line"
+                   id="tspan6995"
+                   x="2.6811051"
+                   y="13.099669">CI/CD</tspan><tspan
+                   sodipodi:role="line"
+                   id="tspan6997"
+                   x="2.6811051"
+                   y="28.099669">testy jednostkowe</tspan></text>
+            </g>
+          </g>
+        </g>
+        <g
+           transform="translate(286.298828125, 552.0999984741211)"
+           id="flowchart-RN-19"
+           class="node default">
+          <rect
+             height="101.80000305175781"
+             width="259.34375"
+             y="-50.900001525878906"
+             x="-129.671875"
+             style="fill:#dbeafe !important;stroke:#1d4ed8 !important"
+             class="basic label-container"
+             id="rect1408" />
+          <g
+             transform="translate(6.5521128,-12.751115)"
+             style="color:#1e3a5f !important"
+             class="label"
+             id="g1438">
+            <rect
+               id="rect1410"
+               width="0"
+               height="0"
+               x="0"
+               y="0" />
+            <g
+               id="g1436">
+              <rect
+                 style="stroke:none"
+                 class="background"
+                 id="rect1412"
+                 width="0"
+                 height="0"
+                 x="0"
+                 y="0" />
+              <text
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#1e3a5f"
+                 y="-10.1"
+                 id="text1434"><tspan
+                   sodipodi:role="line"
+                   id="tspan7023"
+                   x="0"
+                   y="-10.1">⚖️ Rada Naukowa</tspan><tspan
+                   sodipodi:role="line"
+                   id="tspan7025"
+                   x="0"
+                   y="4.8999996">(niezależna)</tspan><tspan
+                   sodipodi:role="line"
+                   id="tspan7027"
+                   x="0"
+                   y="19.9">Audyt architektoniczny</tspan><tspan
+                   sodipodi:role="line"
+                   id="tspan7029"
+                   x="0"
+                   y="34.900002">i aksjologiczny</tspan></text>
+            </g>
+          </g>
+        </g>
+        <g
+           transform="translate(463.763671875, 1358.4999771118164)"
+           id="flowchart-GH-20"
+           class="node default">
+          <rect
+             height="84.19999694824219"
+             width="224.0546875"
+             y="-42.099998474121094"
+             x="-112.02734375"
+             style="fill:#f0fdf4 !important;stroke:#16a34a !important"
+             class="basic label-container"
+             id="rect1441" />
+          <g
+             transform="translate(0,-7.9958281)"
+             style="color:#14532d !important"
+             class="label"
+             id="g1471">
+            <rect
+               id="rect1443"
+               width="0"
+               height="0"
+               x="0"
+               y="0" />
+            <g
+               id="g1469">
+              <rect
+                 style="stroke:none"
+                 class="background"
+                 id="rect1445"
+                 width="0"
+                 height="0"
+                 x="0"
+                 y="0" />
+              <text
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#14532d"
+                 y="-10.1"
+                 id="text1467"><tspan
+                   sodipodi:role="line"
+                   id="tspan7039"
+                   x="0"
+                   y="-10.1">📦</tspan><tspan
+                   sodipodi:role="line"
+                   id="tspan7041"
+                   x="0"
+                   y="4.8999996">GitHub</tspan><tspan
+                   sodipodi:role="line"
+                   id="tspan7043"
+                   x="-3.8146973e-06"
+                   y="19.9">(publiczne repozytorium)</tspan><tspan
+                   sodipodi:role="line"
+                   id="tspan7045"
+                   x="3.8146973e-06"
+                   y="34.900002">Kod·Predykaty·Raporty</tspan></text>
+            </g>
+          </g>
+        </g>
+        <g
+           transform="translate(135.1875, 1100.7999877929688)"
+           id="flowchart-KO-21"
+           class="node default">
+          <rect
+             height="119.4000015258789"
+             width="254.375"
+             y="-59.70000076293945"
+             x="-127.1875"
+             style="fill:#fef9c3 !important;stroke:#ca8a04 !important"
+             class="basic label-container"
+             id="rect1474" />
+          <g
+             transform="translate(0, -44.70000076293945)"
+             style="color:#713f12 !important"
+             class="label"
+             id="g1508">
+            <rect
+               id="rect1476" />
+            <g
+               id="g1506">
+              <rect
+                 style="stroke: none"
+                 class="background"
+                 id="rect1478" />
+              <text
+                 style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:12px;font-family:sans-serif;-inkscape-font-specification:'sans-serif, Normal';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;text-anchor:middle;fill:#713f12"
+                 y="19.935665"
+                 id="text1504"
+                 x="-3.0607114"><tspan
+                   sodipodi:role="line"
+                   id="tspan7031"
+                   x="-3.0607114"
+                   y="19.935665">👥</tspan><tspan
+                   sodipodi:role="line"
+                   id="tspan7033"
+                   x="-3.0607114"
+                   y="34.935665">Kontrybutorzy zewnętrzni</tspan><tspan
+                   sodipodi:role="line"
+                   id="tspan7035"
+                   x="-3.0607114"
+                   y="49.935665">Programiści·Prawnicy</tspan><tspan
+                   sodipodi:role="line"
+                   id="tspan7037"
+                   x="-3.0607114"
+                   y="64.935669">Logicy·Akademicy</tspan></text>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+  <style
+     id="style1517">/* style.css */
+.label text {
+    text-anchor: middle;
+}</style>
+</svg>

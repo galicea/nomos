@@ -1,0 +1,1 @@
+Zgłaszając swoje zmiany (tworząc Pull Request), oświadczasz, że zapoznałeś się z plikiem CLA.md i w pełni akceptujesz jego warunki.

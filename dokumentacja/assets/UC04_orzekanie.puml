@@ -1,0 +1,19 @@
+@startuml
+actor Sędzia
+actor "Ławnik Ekspert" as Expert
+participant SOK
+participant "Silnik Rezolucji" as Engine
+
+Sędzia -> Expert: Konsultacja stanu faktycznego
+Expert --> Sędzia: Parametry techniczne
+Sędzia -> SOK: Wprowadź predykaty sprawy
+activate SOK
+SOK -> Engine: Identyfikuj parametry ocenne
+Engine --> SOK: Lista wag (np. waga naruszenia I)
+SOK --> Sędzia: Prośba o przypisanie wag
+Sędzia -> SOK: Ustaw wagi (I=4, W=4, R=1)
+SOK -> Engine: Wylicz wynik (Formuła Alexy'ego)
+Engine --> SOK: Wynik deterministyczny
+SOK --> Sędzia: Projekt wyroku + uzasadnienie logiczne
+deactivate SOK
+@enduml

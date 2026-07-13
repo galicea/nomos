@@ -1,0 +1,61 @@
+question_text,intent,mapped_predicates
+Kim jesteśmy jako obywatele Rzeczypospolitej? Jakie uniwersalne wartości są fundamentem tej Konstytucji? Jaki jest cel ustanowienia tej Konstytucji?,Preambuła,"Preambuła_1,Preambuła_2"
+Jak definiowana jest osoba w świetle Konstytucji? Kiedy zaczyna się i kończy ochrona prawna osoby?,Prawa i obowiązki podstawowe,1.0
+Czy fundamentalne prawa są zbywalne? Co jest ważniejsze: prawa osoby czy dobro struktur organizacyjnych?,Prawa i obowiązki podstawowe,1.1
+Jaki charakter ma państwo Rzeczpospolita Polska? O co ma dbać republika?,Prawa i obowiązki podstawowe,1.2
+Na jakich zasadach opierają się wspólnoty? Jak rozumiane jest dobro wspólne? Jakie wspólnoty podlegają szczególnej ochronie?,Prawa i obowiązki podstawowe,1.3
+Czy dopuszczalne jest naruszenie praw jednostki dla korzyści ogółu? Czy człowiek może być środkiem do celu?,Prawa i obowiązki podstawowe,1.4.1
+Na czym polega nakaz szacunku dla prawdy w administracji? Jak weryfikowana jest logiczność decyzji?,Prawa i obowiązki podstawowe,1.4.2
+Skąd wynika konieczność stanowienia praw strzegących system wartości? Jaki jest obowiązek obywatela wobec wspólnot?,Prawa i obowiązki podstawowe,1.4.3
+Jak definiowana jest sprawiedliwość w Konstytucji?,Prawa i obowiązki podstawowe,1.4.4
+Jakie są granice swobody głoszenia poglądów?,Prawa i obowiązki podstawowe,1.4.5
+Czy każda organizacja społeczna może legalnie działać?,Prawa i obowiązki podstawowe,1.4.6
+Kiedy państwo powinno interweniować w życie obywatela? Jakie są kryteria pomocy państwowej?,Prawa i obowiązki podstawowe,1.4.7
+Czy prawo własności jest absolutne? Jakie są ograniczenia w gromadzeniu własności?,Prawa i obowiązki podstawowe,1.4.8
+"Jakie warunki muszą być spełnione, by nowy parlament mógł zmienić przepis?",Prawa i obowiązki podstawowe,1.5.3
+Jaki jest cel użycia siły przez aparat państwowy? Jakie są granice legalnego przymusu?,Prawa i obowiązki podstawowe,1.6
+Jaki wymóg logiczny musi spełniać każdy akt prawny? Co grozi za stanowienie niespójnych praw?,Prawa i obowiązki podstawowe,1.7
+Czym jest państwo według Konstytucji? Jaki jest główny cel współpracy obywateli?,Jak rozumieć prawa podstawowe,2.1
+Kiedy można ograniczyć wolność obywatelską? Jakie warunki muszą spełniać takie ograniczenia?,Jak rozumieć prawa podstawowe,2.2
+Jak wolność łączy się z celami społecznymi?,Jak rozumieć prawa podstawowe,2.3
+Na czym polega zasada wzajemności w prawie? Czy dotyczy ona organizacji?,Jak rozumieć prawa podstawowe,2.4
+Jak unikać konfliktów w sferze idei? Kiedy wolno wymuszać zmianę poglądów?,Jak rozumieć prawa podstawowe,2.5
+Czym różni się przestrzeń publiczna od prywatnej w kontekście tolerancji?,Jak rozumieć prawa podstawowe,2.5.1
+Czy symbole religijne mogą być obecne w przestrzeni publicznej?,Jak rozumieć prawa podstawowe,2.5.2
+Czy tolerancja obejmuje poglądy sprzeczne z wiedzą? Kiedy można zakazać głoszenia określonych poglądów?,Jak rozumieć prawa podstawowe,2.5.3
+Jaka jest rola języka polskiego w systemie prawnym? Jak łączy się on z Systemem Ochrony Konstytucji?,Państwo prawa,3.0
+Czy istnieją grupy wyłączone spod powszechnego prawa?,Państwo prawa,3.1.1
+Czy prawo można zmieniać dla rozstrzygnięcia konkretnej sprawy?,Państwo prawa,3.1.2
+Jak działają struktury państwa?,Państwo prawa,3.1.3
+Co tworzy system prawa w Polsce?,Państwo prawa,3.2
+Jaki jest stosunek Konstytucji do innych aktów prawnych?,Państwo prawa,3.3
+Czym są ustawy o randze konstytucyjnej? Jaka jest ich funkcja?,Państwo prawa,3.4
+Czy ustawy o randze konstytucyjnej są niezmienne? Jakie jest uzasadnienie ich zmian?,Państwo prawa,3.6
+Kiedy osoba sprawująca władzę może uniknąć odpowiedzialności prawnej? Co ogranicza immunitet?,Państwo prawa,3.7
+Na czym polega demokratyczny charakter Rzeczypospolitej?,Ustrój polityczny,4.1
+Czy parlamentarzysta jest związany instrukcjami wyborców? Jakie ma obowiązki etyczne i logiczne?,Ustrój polityczny,4.2
+Czy możliwe jest przerwanie mandatu posła przed końcem kadencji?,Ustrój polityczny,4.3
+Jak finansowana jest działalność posłów? Jaką rolę odgrywa w tym wyborca?,Ustrój polityczny,4.4
+Czy obywatele mogą zgłaszać własne projekty ustaw?,Ustrój polityczny,4.8.2
+W jakich sprawach można organizować referenda lokalne?,Ustrój polityczny,4.10
+Kiedy referendum ogólnopolskie jest wiążące dla parlamentu?,Ustrój polityczny,4.11
+Jak państwo powinno uzasadniać swoje decyzje wobec obywatela?,Ustrój polityczny,4.12.1
+Czy w stanie nadzwyczajnym można zawiesić prawa podstawowe?,Ustrój polityczny,4.13
+Czym musi się kierować ustawodawca przy tworzeniu prawa?,System Prawa,5.1
+Czy wszystkie akty prawne są równe?,System Prawa,5.2
+Jak zapobiec wejściu w życie prawa naruszającego fundamenty Konstytucji? Jaka jest rola Prezydenta i Sądu Najwyższego?,System Prawa,5.2
+Jakie wymogi demokratyczne muszą spełniać ustawy o randze konstytucyjnej?,System Prawa,5.2
+"Jaki jest wymóg dla ""zwykłych"" ustaw?",System Prawa,5.2
+"Czym jest System Ochrony Konstytucji i kto go utrzymuje? Co się dzieje, gdy prawo jest niezrozumiałe?",System Prawa,5.3
+Czy prawo może być sformułowane ogólnikowo? Jakie elementy musi zawierać każdy przepis?,System Prawa,5.5
+Jak rozstrzygane są spory między najwyższymi organami państwa?,System Prawa,5.6.3
+Co powinno zawierać uzasadnienie wyroku? Jakie domniemanie obowiązuje w sprawach międzyludzkich?,System Prawa,5.7.1
+Czy sędzia może być odsunięty od orzekania za błędy w rozumowaniu?,System Prawa,5.7.2
+Kiedy państwo może ograniczyć aktywność gospodarczą obywatela?,Ustrój gospodarczy państwa,6.1
+Jakie są filary sprawiedliwego ładu gospodarczego? Czym jest algorytmicznie waloryzowany dochód gwarantowany?,Ustrój gospodarczy państwa,6.2.1
+Jaki jest docelowy model systemu podatkowego w Polsce?,Ustrój gospodarczy państwa,6.3.2
+Czy polskie wojsko może brać udział w wojnach zaczepnych?,Siły zbrojne,7.1
+Kto jest odpowiedzialny za obronę państwa?,Siły zbrojne,7.2
+"Kto staje się obywatelem polskim ""z mocy prawa""?",Obywatelstwo,8.1
+"Jakie wymogi musi spełnić obcokrajowiec, by otrzymać obywatelstwo? Czy obywatelstwo można stracić?",Obywatelstwo,8.2
+Co dzieje się z dotychczasowymi ustawami po wejściu w życie nowej Konstytucji?,Przepisy przejściowe,9.1

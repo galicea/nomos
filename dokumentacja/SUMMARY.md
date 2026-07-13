@@ -21,3 +21,6 @@
 * [Algorytmy i Silnik Rezolucji](algorytmy.md)
 * [Architektura silnika Rules as Code](rules_as_code.md)
 * [Projekt Funkcjonalny (Use Cases)](projekt_funkcjonalny.md)
+
+## Informacje - promocja i zaangażowanie
+* [Pytania i odpowiedzi](q_and_a.md)

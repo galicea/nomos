@@ -66,13 +66,11 @@ Faza 0 na najbliższe pół roku wygląda następująco:
 
 * Konfiguracja GitHub i Forgejo: utworzenie repozytoriów, wpięcie otwartej licencji, dodanie instrukcji dla kontrybutorów (README, CONTRIBUTING.md).
 
-* Otwarty nabór do zespołu w środowiskach akademickich.
-
 * Przygotowanie dokumentacji opisującej cel i założenia projektu oraz jego organizację
 
 **Miesiące 2-3: Budowa Silnika MVP (Wątek A i B)**
 
-* *Dev:* Zbudowanie pierwszego prototypu KOSw Pythonie. Uruchomienie na Digital Ocean.
+* *Dev:* Zbudowanie pierwszego prototypu KOS. Uruchomienie na serwerze do testowania z zapytaniami dotyczącymi projektu.
 
 * *Prawo:* Rozpoczęcie formalizacji projektu Konstytucji na predykaty.
 
@@ -81,12 +79,15 @@ Faza 0 na najbliższe pół roku wygląda następująco:
 * *Audyt:* Każdy wprowadzony predykat przechodzi proces `human-in-the-loop`: zatwierdzenie przez eksperta prawa, logika i inżyniera wiedzy.
 
 
-
 **Miesiące 3-5: Proof of Concept (PoC)**
 
-* Zbudowanie predykatów dla łatwych, deterministycznych ustaw: waloryzacja emerytur, odsetki ustawowe, proste przepisy ordynacji podatkowej .
+* *Dev:* Zbudowanie bazy wiedzy dla systemu aksjologicznego. Uruchomienie na serwerze do testowania.
+
+* Zbudowanie predykatów dla łatwych, deterministycznych ustaw: waloryzacja emerytur, odsetki ustawowe, proste przepisy ordynacji podatkowej.
 
 * Publiczna publikacja raportu PoC na GitHubie z pokazaniem logów z wnioskowania.
+
+* Otwarty nabór do zespołu w środowiskach akademickich.
 
 
 **Miesiąc 5+: Legislacja (Wątek C)**
@@ -96,5 +97,3 @@ Faza 0 na najbliższe pół roku wygląda następująco:
 * Dobre przetestowanie nowego prawa i całego systemu w warunkach zbliżonych do prawdziwych (test z użyciem person)
   
 * Zgłoszenie gotowości systemu. Rozpoczęcie prac analitycznych *Rady Naukowej*. Celem jest potwierdzenie gotowości, zainicjowanie ulepszeń i poprawek.
-
-
